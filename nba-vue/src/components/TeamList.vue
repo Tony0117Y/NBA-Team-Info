@@ -53,7 +53,7 @@ export default {
     // Fetch teams with error handling
     const fetchTeams = async () => {
       try {
-        const response = await axios.get("http://127.0.0.1:8000/teams");
+        const response = await axios.get("https://nba-team-info.onrender.com");
         console.log('API Response:', response.data);
         
         // Validate response structure
